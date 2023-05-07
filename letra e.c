@@ -20,7 +20,7 @@ prestaçao = valor + (valor * (taxa/100) * tempo);
 cifrao1 = 'R';
 cifrao2 = '$';
  
-printf("O valor da prestacao e: %c%c%.2f", cifrao1, cifrao2, prestaçao);
+printf("O valor da prestacao e %c%c%.2f", cifrao1, cifrao2, prestaçao);
 
 return 0;
 }

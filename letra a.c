@@ -10,7 +10,7 @@ int main() {
     
     Fahrenheit = (((Celsius * 9) / 5) + 32);
 
-    printf("O valor em Fahrenheit e: %.2f graus", Fahrenheit);
+    printf("O valor em Fahrenheit e de %.2f graus", Fahrenheit);
     
     return 0;
 }

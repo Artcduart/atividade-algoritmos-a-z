@@ -8,7 +8,7 @@ int main() {
     scanf("%f", &Fahrenheit);
     
     Celsius = (((Fahrenheit - 32) * 5) / 9);
-    printf("O valor em Celsius e: %.2f graus", Celsius);
+    printf("O valor em Celsius e de %.2f graus", Celsius);
     
     return 0;
 }

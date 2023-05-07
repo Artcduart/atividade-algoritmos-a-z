@@ -13,7 +13,7 @@ printf("\nDigite o valor do tempo gasto em horas: ");
 distancia = tempo * velocidade;
 litros_usados = distancia / 12;
  
-printf("A quantidade de combustivel gasta e de: %.2f litros", litros_usados);
+printf("A quantidade de combustivel gasta e de %.2f litros", litros_usados);
 
 return 0;
 }

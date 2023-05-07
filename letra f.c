@@ -5,7 +5,7 @@ int main() {
  
 float a,b,c;
  
-printf("Digite um valor para a variavel a: ");
+printf("Digite um valor para a variavel A: ");
  scanf("%f", &a);
  
 printf("Digite um valor para a variavel B: ");
@@ -15,8 +15,8 @@ printf("Digite um valor para a variavel B: ");
    a = b;
    b = c;
  
-printf("O valor de a se tornou: %.2f", a);
-printf("\nO valor de b se tornou: %.2f", b);
+printf("\nO valor de A se tornou: %.2f", a);
+printf("\nO valor de B se tornou: %.2f", b);
 
 return 0;
  

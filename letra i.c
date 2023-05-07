@@ -5,10 +5,10 @@ int main() {
  
   float valor;
  
-  printf("Digite um valor: ");
+  printf("Digite um valor para ser elevado ao quadrado: ");
   scanf("%f", &valor);
  
-  printf("%.2f elevado ao quadrado e igual a: %.2f", valor, pow(valor, 2));
+  printf("%.2f elevado ao quadrado e igual a %.2f", valor, pow(valor, 2));
 
   return 0;
 }

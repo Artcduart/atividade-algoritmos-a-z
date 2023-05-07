@@ -16,7 +16,7 @@ printf("Digite o valor da largura da caixa em cm: ");
  
    volume = comprimento * largura * altura;
  
-printf("O volume da caixa e de: %d centimetros cubicos", volume);
+printf("O volume da caixa e de %d centimetros cubicos", volume);
  
     return 0;
 }
