@@ -32,13 +32,13 @@ int main() {
     PBR = (BR / N_eleitores) * 100; // Percentual de votos brancos em relação a quantidade total de eleitores
     porcentagem = '%';
 
-    printf("O numero total de eleitores e de: %g.", N_eleitores);
-    printf("\nO percentual de votos validos em relacao ao numero total de eleitores e de: %.2f%c", PVV, porcentagem);
-    printf("\nO percentual de votos validos do candidato A em relacaoo a quantidade total de eleitores e de: %.2f%c", PVA, porcentagem); 
-    printf("\nO percentual de votos validos do candidato B em relacao a quantidade total de eleitores e de: %.2f%c", PVB, porcentagem);
-    printf("\nO percentual de votos válidos do candidato C em relacao a quantidade total de eleitores e de: %.2f%c", PVC, porcentagem); 
-    printf("\nO percentual de votos nulos em relacao a quantidade total de eleitores e de: %.2f%c", PNL, porcentagem); 
-    printf("\nO percentual de votos brancos em relacao a quantidade total de eleitores e de: %.2f%c", PBR, porcentagem);
+    printf("\nO numero total de eleitores e de %g", N_eleitores);
+    printf("\nO percentual de votos validos em relacao ao numero total de eleitores e de %.2f%c", PVV, porcentagem);
+    printf("\nO percentual de votos validos do candidato A em relacaoo a quantidade total de eleitores e de %.2f%c", PVA, porcentagem); 
+    printf("\nO percentual de votos validos do candidato B em relacao a quantidade total de eleitores e de %.2f%c", PVB, porcentagem);
+    printf("\nO percentual de votos validos do candidato C em relacao a quantidade total de eleitores e de %.2f%c", PVC, porcentagem); 
+    printf("\nO percentual de votos nulos em relacao a quantidade total de eleitores e de %.2f%c", PNL, porcentagem); 
+    printf("\nO percentual de votos brancos em relacao a quantidade total de eleitores e de %.2f%c", PBR, porcentagem);
     
     return 0;
 }

@@ -1,8 +1,6 @@
 // Calcular o quadrado de um número
-#include <math.h>
 #include <stdio.h>
-#include <conio.h>
- 
+#include <math.h> 
 int main() {
  
   float valor;
@@ -11,8 +9,6 @@ int main() {
   scanf("%f", &valor);
  
   printf("%.2f elevado ao quadrado e igual a: %.2f", valor, pow(valor, 2));
- 
-    getch();
 
   return 0;
 }

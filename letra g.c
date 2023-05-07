@@ -1,6 +1,5 @@
 // Adições e multiplicações possíveis entre 4 valores
 #include <stdio.h>
-#include <conio.h>
 
 int main() {
  
@@ -31,7 +30,7 @@ printf("Digite um valor para a variavel D: ");
       mult_BD = B * D;
       mult_CD = C * D;
  
-printf("A + B = %.2f\n", soma_AB);
+printf("\nA + B = %.2f\n", soma_AB);
 printf("A + C = %.2f\n", soma_AC); 
 printf("A + D = %.2f\n", soma_AD); 
 printf("B + C = %.2f\n", soma_BC); 
@@ -43,8 +42,6 @@ printf("A * D = %.2f\n", mult_AD);
 printf("B * C = %.2f\n", mult_BC);
 printf("B * D = %.2f\n", mult_BD); 
 printf("C * D = %.2f\n", mult_CD);
-
-getch();
 
 return 0;
 
