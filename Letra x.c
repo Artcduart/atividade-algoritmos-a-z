@@ -17,4 +17,5 @@ int main() {
   printf("A raiz de %.2f no indice %.2f e igual a %f", radicando, indice, resultado);
 
   return 0;
+  
 }

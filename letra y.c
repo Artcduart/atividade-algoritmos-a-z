@@ -16,4 +16,5 @@ int main() {
   printf("\nO sucessor de %d e %d", valor, suc);
 
   return 0;
+  
 }
