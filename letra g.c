@@ -3,19 +3,19 @@
 
 int main() {
  
-float A,B,C,D,soma_AB,soma_AC,soma_AD,soma_BC,soma_BD,soma_CD,mult_AB,mult_AC,mult_AD,mult_BC,mult_BD,mult_CD;
+int A,B,C,D,soma_AB,soma_AC,soma_AD,soma_BC,soma_BD,soma_CD,mult_AB,mult_AC,mult_AD,mult_BC,mult_BD,mult_CD;
 
-printf("Digite um valor para a variavel a: ");
- scanf("%f", &A);
+printf("Digite um valor inteiro para a variavel A: ");
+ scanf("%d", &A);
  
-printf("Digite um valor para a variavel B: ");
- scanf("%f", &B);
+printf("Digite um valor inteiro para a variavel B: ");
+ scanf("%d", &B);
  
-printf("Digite um valor para a variavel C: ");
- scanf("%f", &C);
+printf("Digite um valor inteiro para a variavel C: ");
+ scanf("%d", &C);
  
-printf("Digite um valor para a variavel D: ");
- scanf("%f", &D);
+printf("Digite um valor inteiro para a variavel D: ");
+ scanf("%d", &D);
  
       soma_AB = A + B;
       soma_AC = A + C;
@@ -30,18 +30,18 @@ printf("Digite um valor para a variavel D: ");
       mult_BD = B * D;
       mult_CD = C * D;
  
-printf("\nA + B = %.2f\n", soma_AB);
-printf("A + C = %.2f\n", soma_AC); 
-printf("A + D = %.2f\n", soma_AD); 
-printf("B + C = %.2f\n", soma_BC); 
-printf("B + D = %.2f\n", soma_BD); 
-printf("C + D = %.2f\n", soma_CD);
-printf("A * B = %.2f\n", mult_AB);
-printf("A * C = %.2f\n", mult_AC); 
-printf("A * D = %.2f\n", mult_AD); 
-printf("B * C = %.2f\n", mult_BC);
-printf("B * D = %.2f\n", mult_BD); 
-printf("C * D = %.2f\n", mult_CD);
+printf("\nA + B = %d\n", soma_AB);
+printf("A + C = %d\n", soma_AC); 
+printf("A + D = %d\n", soma_AD); 
+printf("B + C = %d\n", soma_BC); 
+printf("B + D = %d\n", soma_BD); 
+printf("C + D = %d\n", soma_CD);
+printf("A * B = %d\n", mult_AB);
+printf("A * C = %d\n", mult_AC); 
+printf("A * D = %d\n", mult_AD); 
+printf("B * C = %d\n", mult_BC);
+printf("B * D = %d\n", mult_BD); 
+printf("C * D = %d\n", mult_CD);
 
 return 0;
 

@@ -3,12 +3,14 @@
 #include <math.h> 
 int main() {
  
-  float valor;
+  int valor, valorAoQuadrado;
  
-  printf("Digite um valor para ser elevado ao quadrado: ");
-  scanf("%f", &valor);
+  printf("Digite um valor inteiro para ser elevado ao quadrado: ");
+  scanf("%d", &valor);
+
+  valorAoQuadrado = pow(valor, 2);
  
-  printf("%.2f elevado ao quadrado e igual a %.2f", valor, pow(valor, 2));
+  printf("%d elevado ao quadrado e igual a %d", valor, valorAoQuadrado);
 
   return 0;
 }

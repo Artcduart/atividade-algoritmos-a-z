@@ -4,20 +4,20 @@
 
 int main() {
     
-    float A, B, C, quadradoDaSoma;
+    int A, B, C, quadradoDaSoma;
 
-    printf("Digite um valor para a variavel A: ");
-    scanf("%f", &A);
+    printf("Digite um valor inteiro para a variavel A: ");
+    scanf("%d", &A);
     
-    printf("Digite um valor para a variavel B: ");
-    scanf("%f", &B);
+    printf("Digite um valor inteiro para a variavel B: ");
+    scanf("%d", &B);
     
-    printf("Digite um valor para a variavel C: ");
-    scanf("%f", &C);
+    printf("Digite um valor inteiro para a variavel C: ");
+    scanf("%d", &C);
     
-    quadradoDaSoma =  pow(A+B+C,2);
+    quadradoDaSoma = pow(A+B+C,2);
     
-    printf("O quadrado da soma %.2f + %.2f + %.2f e igual a %.2f", A, B, C, quadradoDaSoma);
+    printf("O quadrado da soma %d + %d + %d e igual a %d", A, B, C, quadradoDaSoma);
     
     return 0;
 }

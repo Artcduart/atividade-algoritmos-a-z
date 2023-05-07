@@ -11,10 +11,10 @@ int main() {
  
   printf("Digite outro valor inteiro: ");
   scanf("%d", &valor2);
-
-  resultado = pow((valor1 - valor2),2);
  
-  printf("O quadrado da diferenca entre %d e %d e igual a %d", valor1, valor2, resultado);
+  resultado = pow(valor1, valor2); 
+
+  printf("%d elevado ao expoente %d e igual a %d", valor1, valor2, resultado);
 
   return 0;
 }
